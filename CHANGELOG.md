@@ -36,3 +36,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 - N/A
+
+## [1.0.2] - 2024-09-14
+
+### Added
+- Added example to the package to showcase the usage of the package.
+
+### Changed
+- N/A
+
+### Deprecated
+- N/A
+
+### Removed
+- N/A
+
+### Fixed
+- N/A
