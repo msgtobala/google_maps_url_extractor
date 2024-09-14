@@ -1,7 +1,8 @@
 name: google_maps_url_extractor
 description: "A Flutter package to extract location information from Google Maps URLs, including short URL expansion."
-version: 0.0.1
-# homepage:
+version: 1.0.1
+homepage: https://github.com/msgtobala/google_maps_url_extractor
+repository: https://github.com/msgtobala/google_maps_url_extractor
 
 environment:
   sdk: '>=3.4.4 <4.0.0'

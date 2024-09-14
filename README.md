@@ -15,7 +15,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  google_maps_url_extractor: ^0.0.1
+  google_maps_url_extractor: ^1.0.1
 ```
 
 or run
