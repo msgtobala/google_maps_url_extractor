@@ -53,3 +53,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - N/A
+
+## [2.0.0] - 2024-12-19
+
+### Added
+- **Enhanced coordinate extraction** with support for 6+ URL formats
+- **Zoom level extraction** from Google Maps URLs
+- **Place name extraction** from place URLs
+- **Comprehensive location info extraction** with metadata
+- **Batch processing** for multiple URLs
+- **Intelligent caching system** with LRU eviction policy
+- **Custom exception classes** for better error handling
+- **URL and coordinate validation** utilities
+- **Cache management** methods (clear, get size)
+- **Enhanced error handling** with detailed error messages
+- **Comprehensive test coverage** for all new features
+- **Updated documentation** with complete API reference
+- **Migration guide** for v1.x users
+
+### Changed
+- **BREAKING**: Methods now throw exceptions instead of returning null for invalid inputs
+- **BREAKING**: `extractCoordinates` now validates coordinates before returning them
+- **Enhanced**: `expandShortUrl` now includes caching and better error handling
+- **Enhanced**: `processGoogleMapsUrl` now includes comprehensive validation
+- **Updated**: All method documentation with detailed examples
+- **Updated**: Example app with comprehensive feature demonstration
+
+### Deprecated
+- N/A
+
+### Removed
+- N/A
+
+### Fixed
+- Fixed coordinate extraction patterns to handle more URL formats
+- Fixed error handling to provide more specific error messages
+- Fixed memory leaks in URL expansion by implementing proper caching
+
+### Security
+- Enhanced input validation to prevent potential security issues
+- Improved error handling to avoid information leakage
