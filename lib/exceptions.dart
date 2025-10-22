@@ -11,30 +11,25 @@ abstract class GoogleMapsUrlExtractorException implements Exception {
 
 /// Exception thrown when URL expansion fails.
 class UrlExpansionException extends GoogleMapsUrlExtractorException {
-  const UrlExpansionException(String message, [String? details])
-      : super(message, details);
+  const UrlExpansionException(super.message, [super.details]);
 }
 
 /// Exception thrown when coordinate extraction fails.
 class CoordinateExtractionException extends GoogleMapsUrlExtractorException {
-  const CoordinateExtractionException(String message, [String? details])
-      : super(message, details);
+  const CoordinateExtractionException(super.message, [super.details]);
 }
 
 /// Exception thrown when URL validation fails.
 class InvalidUrlException extends GoogleMapsUrlExtractorException {
-  const InvalidUrlException(String message, [String? details])
-      : super(message, details);
+  const InvalidUrlException(super.message, [super.details]);
 }
 
 /// Exception thrown when coordinate validation fails.
 class InvalidCoordinateException extends GoogleMapsUrlExtractorException {
-  const InvalidCoordinateException(String message, [String? details])
-      : super(message, details);
+  const InvalidCoordinateException(super.message, [super.details]);
 }
 
 /// Exception thrown when network operations fail.
 class NetworkException extends GoogleMapsUrlExtractorException {
-  const NetworkException(String message, [String? details])
-      : super(message, details);
+  const NetworkException(super.message, [super.details]);
 }
