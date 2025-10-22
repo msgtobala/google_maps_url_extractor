@@ -110,3 +110,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Enhanced input validation to prevent potential security issues
 - Improved error handling to avoid information leakage
+
+## [2.0.1] - 2024-12-19
+
+### Fixed
+
+- Fixed library declaration for better package compatibility
+- Resolved linting issues for cleaner package publication
+- Fixed test coverage for better package reliability
