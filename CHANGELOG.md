@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2024-09-14
 
 ### Added
+
 - Initial release of the Google Maps URL Extractor package.
 - `GoogleMapsUrlExtractor` class with the following methods:
   - `expandShortUrl`: Expands shortened Google Maps URLs.
@@ -23,40 +24,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Detailed README with usage examples and documentation.
 
 ### Changed
+
 - N/A
 
 ### Deprecated
+
 - N/A
 
 ### Removed
+
 - N/A
 
 ### Fixed
+
 - N/A
 
 ### Security
+
 - N/A
 
 ## [1.0.2] - 2024-09-14
 
 ### Added
+
 - Added example to the package to showcase the usage of the package.
 
 ### Changed
+
 - N/A
 
 ### Deprecated
+
 - N/A
 
 ### Removed
+
 - N/A
 
 ### Fixed
+
 - N/A
 
 ## [2.0.0] - 2024-12-19
 
 ### Added
+
 - **Enhanced coordinate extraction** with support for 6+ URL formats
 - **Zoom level extraction** from Google Maps URLs
 - **Place name extraction** from place URLs
@@ -72,6 +84,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Migration guide** for v1.x users
 
 ### Changed
+
 - **BREAKING**: Methods now throw exceptions instead of returning null for invalid inputs
 - **BREAKING**: `extractCoordinates` now validates coordinates before returning them
 - **Enhanced**: `expandShortUrl` now includes caching and better error handling
@@ -80,16 +93,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Updated**: Example app with comprehensive feature demonstration
 
 ### Deprecated
+
 - N/A
 
 ### Removed
+
 - N/A
 
 ### Fixed
+
 - Fixed coordinate extraction patterns to handle more URL formats
 - Fixed error handling to provide more specific error messages
 - Fixed memory leaks in URL expansion by implementing proper caching
 
 ### Security
+
 - Enhanced input validation to prevent potential security issues
 - Improved error handling to avoid information leakage
