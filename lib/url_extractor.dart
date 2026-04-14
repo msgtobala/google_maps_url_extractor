@@ -184,6 +184,17 @@ class GoogleMapsUrlExtractor {
         }
       }
 
+      // Pattern 7: q parameter with coordinates
+      regex = RegExp(r'[?&]q=(-?\d+\.?\d*),(-?\d+\.?\d*)');
+      match = regex.firstMatch(url);
+      if (match != null) {
+        final lat = double.parse(match.group(1)!);
+        final lng = double.parse(match.group(2)!);
+        if (isValidCoordinates(lat, lng)) {
+          return {'latitude': lat, 'longitude': lng};
+        }
+      }
+
       return null;
     } catch (e) {
       throw CoordinateExtractionException('Failed to extract coordinates: $e');
